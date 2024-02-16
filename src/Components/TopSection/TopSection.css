@@ -1,0 +1,132 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    background: blue; font-family: calibri; padding-right: 65px;padding-left: 15px;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+    font-size: 35px; font-weight: 600; color: white;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+.mainNav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.mainNavLogo{
+    width: 25%;
+}
+
+.searchBtn{
+
+    background-color: blue;
+    color:white;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    
+    /* border-radius: 5px; */
+}
+
+.navIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.searchBar{
+    width: 50%;
+    position: relative;
+}
+.options{
+    position: absolute;
+    right: 200px;
+    top: 10%;
+    padding: 7px;
+    outline: 0;
+    border: none;
+}
+
+
+
+  *{
+    text-decoration: none;
+}
+.navbar{
+    background: blue; font-family: calibri; padding-right: 65px;padding-left: 15px;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+    font-size: 35px; font-weight: 600; color: white;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+.mainNav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.mainNavLogo{
+    width: 25%;
+}
+/* .searchBar{
+    width: 50%;
+   padding-bottom: 8px;
+} */
+.searchBar{
+    width: 50%;
+    position: relative;
+    padding-bottom: 8px;
+}
+.options{
+    position: absolute;
+    right: 200px;
+    top: 10%;
+    padding: 7px;
+    outline: 0;
+    border: none;
+}
+
+
+.searchBar > input{
+    width: 80%;
+    padding: 10px;
+    padding-bottom: 8px;
+    
+}
+
+
+.navIcons{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cart{
+    position: relative;
+}
+
+.fix{
+    position: absolute;
+    background: blue;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    top: -30%;
+
+    
+}
